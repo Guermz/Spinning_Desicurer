@@ -61,25 +61,26 @@ This GUI application is designed to control your own Spinning Desicurer for time
 ---
 
 ## Wiring Instructions 
-Arduino to ESC (Electronic Speed Controller):
-    Pin 6 (digital output) → ESC signal input
-    5V (from Arduino) → Red signal wire on ESC 
-    GND → Black ground wire on ESC
 
-ESC to Power Supply:
-    +12V from power supply → ESC power input (+12V)
-    GND from power supply → ESC ground
+### Arduino to ESC (Electronic Speed Controller)
+- `Pin 6` (digital output) → ESC signal input  
+- `5V` (from Arduino) → Red signal wire on ESC  
+- `GND` → Black ground wire on ESC
 
-ESC to Motor:
-    Connect the three output wires from the ESC to the three leads of the brushless DC motor
+### ESC to Power Supply
+- `+12V` from power supply → ESC power input (`+12V`)  
+- `GND` from power supply → ESC ground
 
-Arduino to LD24AJTA (LED controller):
-    Pin 9 → Signal input of LD24AJTA
-    GND → GND on LD24AJTA
+### ESC to Motor
+- Connect the **three output wires** from the ESC to the **three leads** of the brushless DC motor
 
-LD24AJTA to Power Supply:
-    +12V from power supply → +12V input of LD24AJTA
-    GND from power supply → GND on LD24AJTA
+### Arduino to LD24AJTA (LED Controller)
+- `Pin 9` → Signal input of LD24AJTA  
+- `GND` → GND on LD24AJTA
+
+### LD24AJTA to Power Supply
+- `+12V` from power supply → `+12V` input of LD24AJTA  
+- `GND` from power supply → GND on LD24AJTA
 
 ## License
 
