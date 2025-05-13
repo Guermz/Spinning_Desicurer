@@ -6,6 +6,8 @@ Published in MRS Communications, 2024. (https://link.springer.com/article/10.155
 
 The hardware has since been enhanced with a brushless DC motor to enable smoother and more consistent layer formation.
 
+The Spinning Desicurer is a post-processing device for resin-based 3D printing that integrates spin coating, vacuum drying, and UV curing into a single system. It enables solvent-free resin removal, surface smoothing, and efficient curing, resulting in transparent, fully cured, and non-sticky 3D-printed parts.
+
 This GUI application is designed to control your own Spinning Desicurer for timed motor and UV LED operations using an Arduino. It allows for automated curing sequences useful in microfabrication, polymerization, or lab prototyping tasks.
 
 <p align="center">
@@ -82,8 +84,6 @@ We sealed the holes with **silicone epoxy** (commercial caulk).
 Although we have designed a **3D-printable desiccator**, it is currently made with **PLA**, which is somewhat permeable and allows air into the chamber.  
 We haven’t yet tested applying a sealant coating to improve airtightness.  
 Let us know if you'd like access to the printable file.
-
----
 
 ### 3D Printed Parts > *Let us know if you need access to these. We'll gladly direct you to a link where you can modify and download these.*
 - **Base Motor Mount**  
