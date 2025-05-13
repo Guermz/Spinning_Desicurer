@@ -11,7 +11,7 @@ This GUI application is designed to control your own Spinning Desicurer for time
 <p align="center">
   <img src="images/spinning_desicurer.png" alt="Desicurer Setup" width="100">
   <br>
-  <em>Figure: Spinning Desicurer setup.</em>
+  <em>Spinning Desicurer Render.</em>
 </p>
 
 
