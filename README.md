@@ -8,6 +8,8 @@ The hardware has since been enhanced with a brushless DC motor to enable smoothe
 
 This GUI application is designed to control your own Spinning Desicurer for timed motor and UV LED operations using an Arduino. It allows for automated curing sequences useful in microfabrication, polymerization, or lab prototyping tasks.
 
+![Desicurer Setup](images/spinning_desicurer.png)
+
 ---
 
 ## Features
