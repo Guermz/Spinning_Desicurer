@@ -11,7 +11,7 @@ The Spinning Desicurer is a post-processing device for resin-based 3D printing t
 This GUI application is designed to control your own Spinning Desicurer for timed motor and UV LED operations using an Arduino. It allows for automated curing sequences useful in microfabrication, polymerization, or lab prototyping tasks.
 
 <p align="center">
-  <img src="/images/spinning_desicurer_process.png" alt="Desicurer Setup" width="500">
+  <img src="/images/spinning_desicurer_process.png" alt="Desicurer Setup" width="550">
   <br>
   <em>Spinning Desicurer Process (The chip is a REAL IMAGE not a render!).</em>
 </p>
