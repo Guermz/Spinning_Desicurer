@@ -1,4 +1,4 @@
-# Spinning Desicurer Controller - Help & Guide
+# Spinning Desicurer and Controller
 
 These scripts were developed to control an upgraded version of the Spinning Desicurer, originally described in the publication:
 "Spinning Desicurer: A Cost-Effective and Generalizable Post-Processing Method for Enhanced Optical Quality in 3D-Printed Microfluidics"
@@ -85,7 +85,7 @@ Let us know if you'd like access to the printable file.
 
 ---
 
-### 3D Printed Parts
+### 3D Printed Parts > *Let us know if you need access to these. We'll gladly direct you to a link where you can modify and download these.*
 - **Base Motor Mount**  
   Flat semi-circular part where the motor is screwed in. It rests directly inside the desiccator.
   
@@ -98,8 +98,6 @@ Let us know if you'd like access to the printable file.
 - **Desiccator External Mounts**  
   Printed brackets that support the power supply, Arduino, and the upper mount where the desiccator sits. These parts integrate with a 20×20cm aluminum extrusion frame to form the external structure.
 
----
-
 ### LED and Mounting
 - **Soldering**  
   Solder the wires to the LED and LED controller: `PWM`, `GND`, `+`, and `−` lines must be correctly connected.
@@ -110,16 +108,12 @@ Let us know if you'd like access to the printable file.
 - **Thermal Interface**  
   Place a **thermal pad** between the LED and heatsink to ensure proper heat transfer.
 
----
-
 ### Desiccator Painting
 To reduce internal UV reflections, we recommend painting the desiccator **matte black**:
 
 - Sand the surface lightly.
 - Apply **matte black spray paint**.
 - Let dry fully before use.
-
----
 
 ### Desiccator Mounting Frame
 Assemble a 3D-printed mounting base and connect it to a **20×20×20 cm aluminum extrusion frame**. This serves as the structural housing for the desiccator system.
