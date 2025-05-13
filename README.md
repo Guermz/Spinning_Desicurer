@@ -1,8 +1,8 @@
 # Spinning Desicurer Controller - Help & Guide
 
-These scripts were developed to control an upgraded version of the Spinning Desicurer, originally described in the publication:
+These scripts were developed to control an upgraded version of the [Spinning Desicurer, originally described in the publication:
 "Spinning Desicurer: A Cost-Effective and Generalizable Post-Processing Method for Enhanced Optical Quality in 3D-Printed Microfluidics"
-Published in MRS Communications, 2024.
+Published in MRS Communications, 2024.] (https://link.springer.com/article/10.1557/s43579-024-00594-9)
 
 The hardware has since been enhanced with a brushless DC motor to enable smoother and more consistent layer formation.
 
@@ -50,7 +50,7 @@ This GUI application is designed to control your own Spinning Desicurer for time
 
 | Component         | Description                             | Link                            |
 |------------------|-----------------------------------------|---------------------------------|
-| Arduino Uno      | Central Microcontroller to control motor & LED | [Buy on Amazon]()             |
+| Arduino Uno      | Central Microcontroller to control motor & LED | [Buy on Amazon](https://www.amazon.com/Arduino-A000066-ARDUINO-UNO-R3/dp/B008GRTSV6/ref=sr_1_5?crid=28YRPWR3AXFE0&dib=eyJ2IjoiMSJ9.VZl_WiFg-4H_p0-BXr9pa0HoKSbb-SFea21hVZZ6cALU8pwAELbygBcjFL03D8MMjRtwqyz59Jvp4YYmEdUap3MpKeozJvDxvwig6L2iVhVXsriMFErl9ETMgpmSO-ahf6IrtGsRTevHpcYVJShXXmi6A4qOGW9q3ZWwIVUPviCdzaYyR0JX0N8edYo_liEQlyRgPFWuNkwM-dGEaxXo5pxmemN8F0KNog--RsqUtbQ.78hK3veeR6hJv7zEipbFKVC3KxY1hRzStcLQebcx2tk&dib_tag=se&keywords=arduino&qid=1747169415&sprefix=arduino+uno%2Caps%2C302&sr=8-5)             |
 | UV LED           | For photopolymerization curing         | [Buy on Amazon](https://www.amazon.com/Chanzon-Ultraviolet-Emitter-Components-Lighting/dp/B01DBZK2C6?th=1)             |
 | ESC (Electronic Speed Controller) | Controls brushless motor       | [Buy on Amazon](https://www.amazon.com/RC-Brushless-Electric-Controller-bullet/dp/B0754H7XZZ/ref=sr_1_8?crid=SARKJWAQ9XVZ&dib=eyJ2IjoiMSJ9.Li96wegYvrs7mtYR8L0iICDO5JP0YEMfBC20ueTgDGn5Qrbxqm6M3NYRAWXMZ7RAxehmZUTbfJPNKaybZGmtcuZZMuyrPsp-jooFE6lO_KpIxnGU746vGZOUvcpUFtdvLnPFL8sPsnn4v_wlzPVZ8Lj0Wkw31rlliG9idndn_2Tv2U1lEZHWM7mKWnQaJAYzrcA0ggcBsFUJEwWAF-HaOT1KvIBdl0tcmGClWsdZunQPzXG-JwI3hx2nDh8bAK3BOFgXRIU3A-T38pGOojfXVwb6Ves7_Xmidp3QFoy6Nh236NjvJM8YcC1ITFq3mgmoX6kwZ9-Y3d1SQ8rNIw77MoeEyxRsRlFKrVLDOhSpqR9l1VU3-xh6yZrqh4UrIE9T2Z43BU4pJrhLyuzsTapYe46jBRmzlmEmfTHf7n7sbr3ueRxS2_qkdtw-5l4xDQ4f.4uH1uNzvZOuYMWVUr1DTc2slQ4TrFTgDHD-G8wAtcjo&dib_tag=se&keywords=electronic%2Bspeed%2Bcontroller%2Bbrushless%2Bmotor&qid=1743444372&sprefix=electronic%2Bspeed%2Bcontroller%2Bbrushless%2Bmotor%2Caps%2C300&sr=8-8&th=1)             |
 | Brushless DC Motor | Drives the spinning platform           | [Buy on Amazon](https://www.amazon.com/dp/B0841TWF7N/?coliid=I2BD8XCIV34OAP&colid=YT4QZJ7KA01P&ref_=list_c_wl_lv_ov_lig_dp_it&th=1)             |
