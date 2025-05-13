@@ -10,7 +10,7 @@ This GUI application is designed to control your own Spinning Desicurer for time
 
 ---
 
-## 🚀 Features
+## Features
 
 - **Step 1 Sequence**:
   - Spins motor for a user-defined time (default: 3 minutes)
@@ -36,7 +36,7 @@ This GUI application is designed to control your own Spinning Desicurer for time
 
 ---
 
-## 🧾 How to Use
+## How to Use
 
 1. Connect your Arduino and open the app.
 2. Select or modify your desired durations and motor speed.
@@ -46,7 +46,7 @@ This GUI application is designed to control your own Spinning Desicurer for time
 
 ---
 
-## 🧰 Required Hardware
+## Required Hardware
 
 | Component         | Description                             | Link                            |
 |------------------|-----------------------------------------|---------------------------------|
@@ -59,14 +59,35 @@ This GUI application is designed to control your own Spinning Desicurer for time
 | Dessicator | For housing UV led and motor | [Buy on Amazon](https://www.amazon.com/Bel-Art-Polycarbonate-Desiccator-Polypropylene-F42020-0000/dp/B002VBW9RS/ref=sr_1_5?crid=PBMCREC7RRU8&dib=eyJ2IjoiMSJ9.iqb1nQx9tdvalGNQpwYILNzb5Se0UqYZvOLdoLveOnJDIfeqIIz7GMO1oah5vCMVf8f88eUK7MeuNWVyFJJB1GnIJDdjem78BFcvYw_psaucFqk0lm6GOWIssqhsJIhSt8CDqBMb0VLihxMxqyGVqnuHSAFF0Et4ko0nVVSg0C8imnI6AoKkOOTjnzoP-zG7r4BxRi9h35wCe84qOLvk_8vh81RhMCrjRWO7pq9Rc24.q8-ptPEVycTNPJxpRL0HcImCTo7V7SFc3eOKkl2u6dg&dib_tag=se&keywords=dessicator&qid=1747169595&sprefix=dessicat%2Caps%2C230&sr=8-5&ufe=app_do%3Aamzn1.fos.9fe8cbfa-bf43-43d1-a707-3f4e65a4b666&th=1)             |
 
 ---
+## Connections
 
-## 📜 License
+     +------------------+         +----------------+
+     |     Arduino      |         |    Power Supply|
+     |------------------|         |----------------|
+     | GND  ------------+---------+ GND            |
+     | 5V   ------------+         |                |
+     | PIN 6 -----------> ESC SIG|                |
+     | PIN 9 -----------> LD24AJTA SIG            |
+     +------------------+         |                |
+                                  |                |
+                                  | +12V ----------+---------+
+                                  |                          |
+                                  v                          v
+                        +----------------+        +----------------+
+                        |      ESC       |        |   LD24AJTA     |
+                        |----------------|        |----------------|
+                        | GND -----------+--------> GND            |
+                        | +12V ---------<---------< +12V           |
+                        | MOTOR OUT ----> Brushless Motor          |
+                        +----------------+        +----------------+
+
+## License
 
 This project is licensed under the MIT License.
 
 ---
 
-## 🧑‍💻 Maintained By
+## Maintained By
 
 **Guillermo Ramirez-Alvarado**  
 GitHub: [github.com/Guermz](https://github.com/Guermz)  
