@@ -1,14 +1,14 @@
 #include <Servo.h>
 
 Servo esc;  // ESC control
-const int ledPin = 9;  // PWM pin for LED
+const int ledPin = 10;  // PWM pin for LED
 
 int motorSpeed = 1000; // Default ESC throttle
 bool ledOn = false;
 
 void setup() {
   Serial.begin(9600);
-  esc.attach(6); // ESC signal on pin 6
+  esc.attach(5); // ESC signal on pin 6
   esc.writeMicroseconds(1000); // Minimum throttle to arm ESC
   pinMode(ledPin, OUTPUT);
   analogWrite(ledPin, 0); // LED off initially
