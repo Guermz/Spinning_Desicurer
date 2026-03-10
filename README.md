@@ -122,7 +122,7 @@ Assemble a 3D-printed mounting base and connect it to a **20×20×20 cm aluminum
 ## Wiring Instructions 
 
 ### Arduino to ESC (Electronic Speed Controller)
-- `Pin 6` (digital output) → ESC signal input  
+- `Pin 5` (digital output) → ESC signal input  
 - `5V` (from Arduino) → Red signal wire on ESC  
 - `GND` → Black ground wire on ESC
 
@@ -134,7 +134,7 @@ Assemble a 3D-printed mounting base and connect it to a **20×20×20 cm aluminum
 - Connect the **three output wires** from the ESC to the **three leads** of the brushless DC motor
 
 ### Arduino to LD24AJTA (LED Controller)
-- `Pin 9` → Signal input of LD24AJTA  
+- `Pin 10` → Signal input of LD24AJTA  
 - `GND` → GND on LD24AJTA
 
 ### LD24AJTA to Power Supply
